@@ -8,7 +8,9 @@ Welcome to the Crawlbase G2 Reviews Scraper project! This project showcases how 
 
 Before you begin, ensure you have Node.js installed. Then, run the following command in your terminal to install the required packages:
 
-`npm i`
+```bash
+npm i
+```
 
 ## Setting Up Firebase:
 
@@ -22,7 +24,9 @@ We're using Crawlbase's Crawling API to get the HTML of the G2 product reviews p
 
 To run the server, execute:
 
-`node index.js` OR `npm run dev`
+```bash
+npm run dev
+```
 
 The server will start on port `3000`, and you can access the /scrape endpoint.
 
