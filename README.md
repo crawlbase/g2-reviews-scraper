@@ -32,7 +32,7 @@ Running the Server:
 
 To run the server, execute:
 
-`node app.js`
+`node index.js` OR `npm run dev`
 
 The server will start on port 3000, and you can access the /scrape endpoint.
 
