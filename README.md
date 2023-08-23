@@ -41,7 +41,11 @@ npm run dev
 
 The server will start on port `3000`, and you can access the `/scrape` endpoint.
 
-Let's test the endpoint `/scrape` by using cURL. Run the below cURL in your terminal to make sure the endpoint is working also make sure to encode the G2 `URL`: ```bash curl 'http://localhost:3000/scrape?url=https%3A%2F%2Fwww.g2.com%2Fproducts%2Fvisual-studio%2Freviews' ```
+Let's test the endpoint `/scrape` by using cURL. Run the below cURL in your terminal to make sure the endpoint is working also make sure to encode the G2.
+
+```bash 
+curl 'http://localhost:3000/scrape?url=https%3A%2F%2Fwww.g2.com%2Fproducts%2Fvisual-studio%2Freviews' 
+```
 
 ## Response:
 
